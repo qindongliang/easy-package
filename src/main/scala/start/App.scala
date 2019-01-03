@@ -14,7 +14,7 @@ object App {
   def main(args: Array[String]): Unit = {
 
 
-    logger.info(s" appId: ${conf.getString("appId")} ")
+    logger.info(s" scala-appId: ${conf.getString("appId")} ")
     logger.warn(" this is a warn message.")
 
     val list=new util.ArrayList[String]()

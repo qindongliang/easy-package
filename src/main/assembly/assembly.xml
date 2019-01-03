@@ -23,12 +23,12 @@
             <fileMode>0755</fileMode>
         </fileSet>
 
-        <!-- 打包目录conf，注意源代码里面不需要有conf，可以动态生成 -->
+        <!-- 打包目录conf，注意源代码里面不需要有conf，可以动态生成，需要拷贝编译后的，不能是编译前的，否则filter属性还没生效 -->
         <fileSet>
-            <directory>${project.basedir}/src/main/resources</directory>
+            <directory>target/classes</directory>
             <outputDirectory>/conf</outputDirectory>
             <includes>
-                <include>*.*</include>
+                <include>*.properties</include>
             </includes>
             <fileMode>0755</fileMode>
         </fileSet>

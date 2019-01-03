@@ -23,7 +23,6 @@ public class Test {
         list.add("2");
         list.add("3");
 
-
         System.out.println(JSON.toJSONString(list));
 
 
