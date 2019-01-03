@@ -54,6 +54,7 @@
             <includes>
                 <include>com.typesafe:config</include>
                 <include>com.alibaba:fastjson</include>
+                <include>log4j:log4j</include>
             </includes>
         </dependencySet>
     </dependencySets>  
