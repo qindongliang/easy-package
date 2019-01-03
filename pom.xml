@@ -12,7 +12,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <scala.version>2.11.8</scala.version>
         <config.version>1.2.1</config.version>
-        <fastjson.version>1.2.15</fastjson.version>
+        <fastjson.version>1.2.31</fastjson.version>
     </properties>
 
     <dependencies>
