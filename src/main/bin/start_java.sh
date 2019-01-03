@@ -16,7 +16,7 @@ jars_path="$project_path/libs/*"
 conf_path="$project_path/conf/"
 
 # 所有拼接完整的path
-cpath="$conf_path:$jars:$project_path/easy-package-template-1.0.0.jar:"
+cpath="$conf_path:$jars_path:$project_path/easy-package-template-1.0.0.jar:"
 
 # 启动
 java -cp $cpath demo.Test
