@@ -24,6 +24,7 @@ nohup /spark/bin/spark-submit    --class  demo.SparkStreaming  --master yarn  --
  --conf spark.executor.extraClassPath=$spark_jars \
  --conf spark.executor.extraLibraryPath=$spark_jars \
  --conf spark.yarn.maxAppAttempts=1 \
+  --name "App SparkStreaming Task" \
   $project_path/easy-package-template*.jar $1 $2 $3  &> kp.log &
 
 
