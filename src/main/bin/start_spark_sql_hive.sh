@@ -23,5 +23,6 @@ nohup /spark/bin/spark-submit  --class demo.SparkAppMainJob --master yarn  --dep
  --driver-library-path $spark_jars \
  --conf spark.executor.extraClassPath=$spark_jars \
  --conf spark.executor.extraLibraryPath=$spark_jars \
+ --name "App Spark Task" \
   $project_path/easy-package-template*.jar $1 $2 $3 &> kp.log &
 
